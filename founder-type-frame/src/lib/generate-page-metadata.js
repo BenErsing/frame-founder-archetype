@@ -12,7 +12,7 @@ export async function generateMetadata({ searchParams }) {
     'relentless': '/problem-solver.webp',
   }
 
-  const imageUrl = type ? IMAGE_LOOKUP[type] : 'https://placehold.co/1200x800/png';
+  const imageUrl = type ? IMAGE_LOOKUP[type] : '/archetype-frame-coverimage.png';
 
   return {
     title: 'Founder Archetype',
