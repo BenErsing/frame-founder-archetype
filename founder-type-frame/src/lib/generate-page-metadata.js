@@ -5,11 +5,11 @@ export async function generateMetadata({ searchParams }) {
 
   // 3:2 image that represents the in-feed embedded image for each type
   const IMAGE_LOOKUP = {
-    'visionary': 'https://placehold.co/1200x800/png',
-    'strategic': 'https://placehold.co/1200x800/png',
-    'community': 'https://placehold.co/1200x800/png',
-    'contrarian': 'https://placehold.co/1200x800/png',
-    'relentless': 'https://placehold.co/1200x800/png',
+    'visionary': '/visionary-builder.webp',
+    'strategic': '/strategic-operator.webp',
+    'community': '/community-catalyst.webp',
+    'contrarian': '/contrarian.webp',
+    'relentless': '/problem-solver.webp',
   }
 
   const imageUrl = type ? IMAGE_LOOKUP[type] : 'https://placehold.co/1200x800/png';
